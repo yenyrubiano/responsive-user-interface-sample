@@ -1,0 +1,45 @@
+/*------------------------------------------------*/
+/* YR GLOBAL
+/*------------------------------------------------*/
+
+html { 
+	height: 100%; 
+}
+
+body {
+	background: $alabaster;
+	font-family: $font-family-base;
+	height: 100%;
+}
+
+p { 
+	font-size: 14px; 
+	line-height: 24px; 
+	color: $nevada;
+	padding: 15px 0 0 0;
+	margin: 0;
+}
+
+.pull-left {
+	margin-right: 15px;
+}
+
+small {
+	color: $bombay;
+}
+
+.badge {
+    color: $burnt-sienna;
+    background-color: $alabaster;
+    border-radius: 50%;
+    border: solid 2px $burnt-sienna;	
+    padding: 4px 7px;
+    position: absolute;
+    top: 25px;
+    right: 6px;
+}
+
+:focus {
+	outline: none;
+}
+

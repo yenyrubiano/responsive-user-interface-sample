@@ -1,0 +1,349 @@
+<!DOCTYPE html> 
+
+<html lang=en>
+
+  <head>
+
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <meta name=description content="Mark's Homework">
+    <meta name=keywords content="Mark, Homework, UI, Developer, Test, Sample">
+    <meta name=author content="Yeny Rubiano">
+
+    <title>Mark's Homework</title>
+
+    <!-- STYLES -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app-core.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- ICONS -->
+    <link rel="apple-touch-icon" href="images/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/touch-icon-ipad-retina.png">
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="scripts/modernizr.custom.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+          <script src="scripts/html5shiv.min.js"></script>
+          <script src="scripts/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body class="yr-menu-push">
+
+    <!-- SIDEBARS -->
+    <nav class="yr-menu yr-menu-vertical yr-menu-left" id="yr-menu-s1">
+      <div class="logo">
+        <img src="images/logo.png" alt="Vonigo" width="130" />
+      </div>
+      <h6>Main</h6>
+      <a href="#" class="active"><span class="fa fa-th-large"></span> Dashboard</a>
+      <a href="#"><span class="fa fa-phone"></span> Calls</a>
+      <a href="#"><span class="fa fa-pencil-square-o"></span> Quotes</a>
+      <a href="#"><span class="fa fa-users"></span> Leads</a>
+      <a href="#"><span class="fa fa-user"></span> Accounts</a>
+      <a href="#"><span class="fa fa-map-marker"></span> Jobs</a>
+      <a href="#"><span class="fa fa-calendar"></span> Schedule</a>
+      <a href="#"><span class="fa fa-file-o"></span> Invoices</a>
+      <a href="#"><span class="fa fa-briefcase"></span> Cases</a>
+      <a href="#"><span class="fa fa-list-ul"></span> Reports</a>
+      <h6>More</h6>
+      <a href="#"><span class="fa fa-book"></span> Library</a>
+      <a href="#"><span class="fa fa-book"></span> Directory</a>
+      <a href="#"><span class="fa fa-question-circle-o"></span> Help</a>
+      <h6>Settings</h6>
+      <a href="#"><span class="fa fa-building"></span> Franchise</a>
+      <a href="#"><span class="fa fa-flag"></span> Corporate</a>
+      <a href="#"><span class="fa fa-gear"></span> Setup</a>
+      <div class="copyright">
+        &copy; 2017 Yeny Rubiano
+        <br>
+        Terms &amp; Privacy
+      </div>
+    </nav>
+    <nav class="yr-menu yr-menu-vertical-right yr-menu-right" id="yr-menu-s2">
+      <h6>Following (13)</h6>
+      <div class="people-list">
+        <img src="images/people/profile1.png" width="40" height="40" alt="person" ><img src="images/people/profile2.png" width="40" height="40" alt="person" ><img src="images/people/profile3.png" width="40" height="40" alt="person" ><img src="images/people/profile4.png" width="40" height="40" alt="person" ><img src="images/people/profile5.png" width="40" height="40" alt="person" ><img src="images/people/profile1.png" width="40" height="40" alt="person" ><img src="images/people/profile2.png" width="40" height="40" alt="person" >
+      </div>
+      <h6>Followers (98)</h6>
+      <div class="people-list">
+        <img src="images/people/profile1.png" width="40" height="40" alt="person" ><img src="images/people/profile2.png" width="40" height="40" alt="person" ><img src="images/people/profile3.png" width="40" height="40" alt="person" ><img src="images/people/profile4.png" width="40" height="40" alt="person" ><img src="images/people/profile5.png" width="40" height="40" alt="person" ><img src="images/people/profile1.png" width="40" height="40" alt="person" ><img src="images/people/profile2.png" width="40" height="40" alt="person" >
+      </div>
+      <h6>Recent Items</h6>
+      <span class="fa fa-th-large"></span> Work order, ID:823-1
+      <br>
+      <span class="fa fa-phone"></span> Call lorem ipsum
+      <h6>Links</h6>
+      <a href="/" target="_blank">Corporate website</a>
+      <a href="/" target="_blank">Google Analytics</a>
+      <a href="/" target="_blank">Corporate Google Docs</a>
+      <a href="/" target="_blank">Book Online</a>
+      <a href="/" target="_blank">Quote Functionality Update</a>
+      <a href="/" target="_blank">Help Manuals</a>
+      <a href="/" target="_blank">Mobile Video Game Theater Homepage</a>
+      <h6>Discussion Groups</h6>
+      <a href="/" target="_blank">Marketing Strategy</a>
+      <a href="/" target="_blank">B2B</a>
+      <a href="/" target="_blank">Operational Standards</a>
+      <a href="/" target="_blank">How to Discussion Group</a>
+    </nav>
+    <!-- SIDEBARS END -->
+
+    <!-- HEADER -->
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-addon"><span class="fa fa-search"></span></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="header-user pull-right">
+              Stephanie <img src="images/people/headshot1.png" width="60" height="60" alt="person">
+            </div>
+            <div class="header-menu pull-right">
+              <ul>
+                <li><a href="/"><span class="badge">9</span><span class="fa fa-calendar"></span></a></li><li><a href="/"><span class="fa fa-user"></span></a></li><li><a href="/"><span class="badge">2</span><span class="fa fa-list"></span></a></li>
+              </ul>
+            </div>
+            <div class="dropdown pull-right">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Create New &nbsp; <span class="fa fa-angle-down"></span>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER ENDS -->
+
+    <!-- SIDEBAR CONTROLLERS -->
+    <section class="btn-nav-left">
+      <button id="showLeftPush"></button>
+    </section>
+    <section class="btn-nav-right">
+      <button id="showRightPush"></button>
+    </section>
+    <!-- SIDEBAR CONTROLLERS ENDS -->
+
+    <!-- PAGE TITLE -->
+    <div class="main-title">
+      <h1>Dashboard</h1>
+    </div>
+    <!-- PAGE TITLE ENDS -->
+
+    <!-- DASHBOARD -->
+    <div class="dashboard">
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-15">
+              <div class="data">
+                <span class="fa fa-user-plus"></span>
+                <h6>New Clients</h6>
+                <small>Last 7 days</small>
+                <div class="clearfix"></div>
+                <div class="number">
+                  25
+                </div>
+              </div>
+            </div>
+            <div class="col-md-15">
+              <div class="data">
+                <span class="fa fa-sticky-note"></span>
+                <h6>New Work Orders </h6>
+                <small>Last 24 Hours</small>
+                <div class="clearfix"></div>
+                <div class="number">
+                  13
+                </div>
+              </div>
+            </div>
+            <div class="col-md-15">
+              <div class="data">
+                <span class="fa fa-th-list"></span>
+                <h6>New Quotes</h6>
+                <small>Last month</small>
+                <div class="clearfix"></div>
+                <div class="number">
+                  249
+                </div>
+              </div>
+            </div>
+            <div class="col-md-15">
+              <div class="data">
+                <span class="fa fa-tasks"></span>
+                <h6>New Invoices</h6>
+                <small>Today</small>
+                <div class="clearfix"></div>
+                <div class="number">
+                  68
+                </div>
+              </div>
+            </div>
+            <div class="col-md-15">
+              <div class="data">
+                <span class="fa fa-suitcase"></span>
+                <h6>Open Cases</h6>
+                <small>Since launch</small>
+                <div class="clearfix"></div>
+                <div class="number">
+                  1898
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- DASHBOARD ENDS -->
+
+    <!-- CONTENT -->
+    <div class="container-fluid">
+      <div class="main">
+        <div class="col-md-6">
+          <div class="post-header clearfix">
+            <div class="pull-right">
+              <a href="/" class="btn btn-default">Post message</a> <a href="/" class="btn btn-default btn-icon"><span class="fa fa-gear"></span></a>
+            </div>
+            <h2>Corporate message board</h2>
+          </div>
+          <!-- PANEL 1 -->
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <img src="images/people/headshot1.png" width="60" height="60" alt="person" class="pull-left">
+              <h3>James Dickie</h3>
+              <small>2 hours ago</small>
+              <div class="clearfix"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+            <img src="images/post.jpg" class="img-responsive" alt="Sample Post">
+            <a href="/" target="_self" class="comments-link">View 3 more comments</a>
+            <div class="panel-footer">
+              <img src="images/people/headshot2.png" width="40" height="40" alt="person" class="pull-left">
+              <h3>Alec Nilsson</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <textarea class="form-control" rows="1" placeholder="Add your comment..."></textarea>
+            </div>
+          </div>
+          <!-- PANEL 1 ENDS -->
+          <!-- PANEL 2 -->
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <img src="images/people/headshot2.png" width="60" height="60" alt="person" class="pull-left">
+              <h3>John Cassidy</h3>
+              <small>1 hour ago</small>
+              <div class="clearfix"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+            <div class="panel-footer">
+              <textarea class="form-control" rows="1" placeholder="Add your comment..."></textarea>
+            </div>
+          </div>
+          <!-- PANEL 2 ENDS -->
+        </div>
+        <div class="col-md-6">
+          <div class="post-header clearfix">
+            <h2>Your network</h2>
+          </div>
+          <!-- PANEL 1 -->
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <img src="images/people/headshot3.png" width="60" height="60" alt="person" class="pull-left">
+              <h3>Lynette Cow</h3>
+              <small>2 hours ago</small>
+              <div class="clearfix"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <a href="/" target="_self" class="attachment-link"><span class="fa fa-paperclip"></span> &nbsp; <strong>Vonigo_App_9th.psd</strong> &nbsp; Photoshop file &nbsp; <small>13mb</small></a>
+            <a href="/" target="_self" class="comments-link">View 3 more comments</a>
+            <div class="panel-footer">
+              <img src="images/people/headshot2.png" width="40" height="40" alt="person" class="pull-left">
+              <h3>Alec Nilsson <small>5:44 pm</small></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <img src="images/people/headshot5.png" width="40" height="40" alt="person" class="pull-left">
+              <div class="pull-left" style="width: 86%;">
+                <textarea class="form-control" rows="3" placeholder="Add your comment..."></textarea>
+                <div class="footer-btns">
+                  <a href="/" class="btn btn-primary">Post Comment</a> <a href="/" class="btn btn-default">Cancel</a>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <!-- PANEL 1 ENDS -->
+          <!-- PANEL 2 -->
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <img src="images/people/headshot4.png" width="60" height="60" alt="person" class="pull-left">
+              <h3>Eva Stillman</h3>
+              <small>3 hours ago</small>
+              <div class="clearfix"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+            <a href="/" target="_self" class="comments-link">View 18 more comments</a>
+            <div class="panel-footer">
+              <img src="images/people/headshot5.png" width="40" height="40" alt="person" class="pull-left">
+              <h3>Rebekah Swanson <small>5:44 pm</small></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <textarea class="form-control" rows="1" placeholder="Add your comment..."></textarea>
+            </div>
+          </div>
+          <!-- PANEL 2 ENDS -->
+        </div>
+      </div>
+    </div>
+    <!-- CONTENT ENDS -->
+
+    <!-- CUSTOM SCRIPTS -->
+    <script src="scripts/classie.js"></script>
+    <script>
+      var menuLeft = document.getElementById( 'yr-menu-s1' ),
+        menuRight = document.getElementById( 'yr-menu-s2' ),
+        showLeftPush = document.getElementById( 'showLeftPush' ),
+        showRightPush = document.getElementById( 'showRightPush' ),
+        body = document.body;
+
+      showLeftPush.onclick = function() {
+        classie.toggle( this, 'active' );
+        classie.toggle( body, 'yr-menu-push-toright' );
+        classie.toggle( menuLeft, 'yr-menu-open' );
+        disableOther( 'showLeftPush' );
+      };
+      showRightPush.onclick = function() {
+        classie.toggle( this, 'active' );
+        classie.toggle( body, 'yr-menu-push-toleft' );
+        classie.toggle( menuRight, 'yr-menu-open' );
+        disableOther( 'showRightPush' );
+      };
+
+      function disableOther( button ) {
+        if( button !== 'showLeftPush' ) {
+          classie.toggle( showLeftPush, 'disabled' );
+        }
+        if( button !== 'showRightPush' ) {
+          classie.toggle( showRightPush, 'disabled' );
+        }
+      }
+    </script>
+  </body>
+
+</html>

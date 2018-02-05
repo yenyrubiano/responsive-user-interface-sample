@@ -1,0 +1,41 @@
+/*------------------------------------------------*/
+/* DASHBOARD
+/*------------------------------------------------*/
+
+.dashboard {
+	background: $white;
+}
+
+.data {
+	padding: 50px;
+	& span {
+		border: solid 1px $gray-light;
+		width: 25px;
+		font-size: 16px;
+		padding: 2px;
+		text-align: center;
+		float: left;
+		margin-right: 10px; 
+	}
+	& h6 {
+		color: $shark;
+		padding: 0;
+		margin: 0;
+		border: none;
+		line-height: 12px;
+	}
+	& small {
+		font-size: 10px;
+	}
+	& .number {
+		font-size: 60px;
+		font-weight: 300;
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 768px)   {
+    .data {
+        padding: 30px;
+    }
+}

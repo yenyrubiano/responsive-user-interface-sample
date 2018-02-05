@@ -1,0 +1,45 @@
+/*   
+Product: Mark's Project
+Author: Yeny Rubiano
+Author URL: https://muiscadesignssite.wordpress.com/
+*/
+
+
+// COLORS
+
+$white: 				#ffffff;
+$alabaster: 			#f7f7f7;
+$gray-light:            #EDEDED;
+$alto: 					#d5d5d5;
+$loblolly: 				#bdc2ca;
+$bombay: 				#aeaeb0;
+$silver: 				#b9b9b9;
+$gray: 					#8a8a8a;
+$nevada: 				#6c6d6f;
+$shuttle-gray: 			#63666E;
+$mako: 					#464b57;
+$shark: 				#2a2d33;
+$burnt-sienna: 			#e6614f;
+$curious-blue: 			#2791c6;
+$puerto: 				#51d2b7;
+
+$link-color: 			$shark !default;
+
+
+// FONTS
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
+$font-family-open-sans: 'Open Sans', sans-serif;
+$font-family-base: $font-family-open-sans !default;
+
+
+// TYPOGRAPHY
+
+$h1-fontsize: 			25px !default;
+$h2-fontsize: 			15px !default;
+$h3-fontsize: 			14px !default;
+$h4-fontsize: 			14px !default;
+$h5-fontsize: 			13px !default;
+$h6-fontsize: 			11px !default;
+

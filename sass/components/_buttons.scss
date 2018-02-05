@@ -1,0 +1,55 @@
+/*------------------------------------------------*/
+/* BUTTONS
+/*------------------------------------------------*/
+
+.btn-default {
+  background: $alabaster;
+}
+
+.btn-icon {
+  color: $bombay;
+  font-size: 20px;
+  padding: 2px 8px;
+}
+
+.btn-primary {
+  background: $alabaster;
+  border: solid 1px $curious-blue;
+  color: $curious-blue;
+  &:hover,
+  &:focus,
+  &:active {
+    background: $gray-light;
+    color: $curious-blue;
+  }
+}
+
+.btn-secondary {
+  background: $burnt-sienna;
+  color: $white;
+  padding: 9px 20px;
+  margin-top: 24px;
+  &:focus, 
+  &:hover {
+    background: darken($burnt-sienna, 5%);
+    color: $white;
+  }
+}
+
+.dropdown-menu {
+  padding: 0;
+  & .dropdown-item {
+    color: $shark;
+    display: block;
+    padding: 10px;
+    border-bottom: solid 1px $alto;
+    &:hover {
+      background: $alabaster;
+      text-decoration: none;
+    }
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
